@@ -27,12 +27,5 @@ sequenceDiagram
     server-->>browser: [{ "content": "NotesFromPeople", "date": "2024-8-5" }, ... ]
     deactivate server
 
-    Note right of browser: The user write "Test3" on the input and press save
-    Note right of browser: JS add this note to var notes with (notes.push(notes) and redraw all the notes
-    
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
-
-    activate server
-    server-->>browser: HTML 201 - {content: "Test3", date: "2024-08-05T16:22:55.014Z"}
-    deactivate server
+    Note right of browser: The browser draw all the notes.
 ```
