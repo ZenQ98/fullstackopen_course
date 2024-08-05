@@ -1,2 +1,3 @@
 # fullstackopen_course
- Full Stack Open - Helsinki
+
+Full Stack Open - Helsinki
